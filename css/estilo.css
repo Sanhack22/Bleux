@@ -1,0 +1,629 @@
+:root{
+    --nav: #1E172F;
+    --head: #2E2550;
+    --letra: #F40084;
+    --btn:#8540D5;
+    --btn2:#077DD5;
+    --degradado:linear-gradient(90deg, var(--btn), var(--btn2));
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BARRA DE ARRIBA */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E172F;
+    height: 70px;
+}
+
+nav ul{
+    display: flex;
+    align-items: baseline;
+    width: 30%;
+    height: 100%;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    list-style: none;
+    padding-top: 10px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: #ffffff5e;
+    font-size: 1.2rem;
+
+}
+
+nav ul li button{
+    padding: 0 0 4px 0;
+    color: #fff;
+    font-size: 1rem;
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;;
+    background: linear-gradient(90deg, var(--btn), var(--btn2));;
+}
+/* CABECERA CON IMAGEN DE HOJAS */
+header{
+    height: 80%;
+    overflow: hidden;
+}
+
+
+.contPadre1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.info{
+ 
+    padding-left: 250px; 
+}
+
+.contHijo1{
+    background: #2E2550;
+    width: 50%;
+    color: #fff;
+}
+.contHijo1 h1{
+    display: flex;
+    
+    width: 400px;
+    font-size: 70px;
+    line-height: 80px;
+    padding: 160px 0 0 0;
+    
+}
+
+.contHijo1 p {
+    font-size: 26px;
+    padding: 60px 0 40px 0;
+
+}
+
+.contBtnHeader{
+    border-radius: 5px;
+    height: 65px;
+    width: 70%;
+    border:  1px solid rgba(255, 255, 255, 0.39);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.contBtnHeader button{
+    
+    height: 50px;
+    width: 50%;
+    border-radius:5px ;
+    background-color: #fff;
+    border: none;
+    color: #F40084;
+    font-size: 20px;
+    
+}
+#btnheader2{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    height: 50px;
+    border-radius: 5px;
+    width: 40%;
+    
+    
+    
+}
+
+#contPhone{
+    width: 50%;
+    background-image: url(/images/hojasFondo.jpg);
+    background-size: 70vw;
+    background-position: -200px -115px;
+    padding: 130px 0 30px 200px;
+}
+
+#contPhone img{
+    width: 250px;
+}
+
+
+/*MAIN*/
+
+.contPadre2{
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+
+}
+
+#h2Solo{
+    color: #F40084;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.Mitad {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.portatil{
+    display: flex;
+align-items: center;
+justify-content: end;
+    width: 52%;
+    height: 600px;
+}
+
+.portatil img{
+    width: 600px;
+    height: 400px;
+}
+
+.portatil2{
+    width: 42%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+}
+.portatil2 li{
+    list-style: none;
+}
+.portatil2 h4{
+
+    font-size: 25px;
+    padding: 10px 0;
+    color: #F40084;
+ 
+}
+span{
+    color: #F40084;
+    
+}
+
+.portatil2 p{
+    font-size: 18px;
+    width: 400px;
+}
+
+.portatil2 h3{
+    color: #F40084;
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+
+.infoMedio{
+    display: flex;
+    flex-direction: column ;
+    height: 400px;
+
+
+}
+/*PLANES*/
+.planes{
+    background-color:#1E172F;
+    height: 850px;
+}
+
+.planes h3{
+    padding: 30px 0 30px 0;
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+}
+
+#textoPlanes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+#textoPlanes p{
+    width: 1000px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.planPadre{
+    display: flex;
+    justify-content: center;
+}
+.planHijos{
+    background-color: #fff;
+    border-radius: 8px;
+    width: 15%;
+    margin:  10px;
+    height: 600px;
+}
+.planHijos h4{
+    text-align: center;
+}
+
+#planLite{
+    color: #F40084;
+}
+.precio{
+    font-size: 40px;
+}
+
+.imgPlan{
+    display: flex;
+    justify-content: center;
+}
+.PrecioPlan{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    height: 60px;
+    margin:0 0 10px 0  ;
+}
+
+.tipo{
+    margin: 5px;
+}
+#tipoDf {
+    margin: 5px;
+    width: 70px;
+}
+span{
+    color: #F40084;
+    font-weight: 900;
+}
+
+.opciones{
+    display: flex;
+    align-items: center;    
+    height: 20%;
+    font-weight: 700;
+}
+.opciones span{
+    padding: 20px 20px;
+    
+    
+}
+
+section{
+    height: 30%;
+}
+
+.ParrafoAbajo{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+    
+
+
+
+.BtnAbajo{
+
+    display: flex;
+    flex-direction: column;
+align-items: center;    
+    justify-content: center;
+    height: 20%;
+
+}
+.BtnAbajo div{
+    background-color: #f2f2f2;
+}
+button{
+    background-color: #1E172F;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    height: 50px;
+    width: 150px;
+}
+footer{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+#pie{
+    padding-top: 20px;
+    display: flex;
+    width: 50%;
+}
+.FooterDiv{
+    display: flex;
+    width: 20%;
+    padding-top: 15px;
+    justify-content: space-around;
+}
+
+.FooterDiv img{
+
+    width: 35px;
+
+}
+
+
+@media (min-width:1280px) {
+    nav ul{
+        width: 50%;
+    }
+
+    li{
+        width: 20%;
+        text-align: center;
+    }
+    .contBtnHeader{
+        width: 80%;
+    }
+    
+    
+}
+
+@media (max-width:1279px){
+    .info{
+        padding-left: 10px;
+    }
+    .info p{
+        width: 90%;
+        padding: 20px 0;
+    }
+    nav ul{
+        width: 60%;
+    }
+
+    #contPhone {
+        padding: 80px 0 0 60px;
+    }
+
+    .portatil img{
+        height: 300px;
+        padding-left: 400px;
+        width: 800px;
+        
+    }
+    .planHijos{
+        width: 25%;
+    }
+}
+
+@media (max-width:920px){
+    .contBtnHeader{
+        width: 90%;
+    }
+     .infoMedio{
+        width: 100%;
+    }
+    .Mitad{
+        justify-content: space-around;
+    }
+    .portatil{
+        width: 50%;
+    }
+    .portatil2{
+        width: 40%;
+    } 
+    .portatil2 p{
+        width: 90%;
+    }
+    .portatil2 h3{
+        padding-bottom:20px ;
+    }
+    .planHijos{
+        width: 30%;
+    }
+   #textoPlanes p{
+    width: 80%;
+   }
+   .FooterDiv{
+    width: 30%;
+   }
+
+
+}
+
+@media (max-width:768px){
+    nav{
+        flex-direction: column;
+        height: 200px;
+
+    }
+    nav div {
+        text-align: center;
+    }
+    .contPadre1{
+        flex-direction: column;
+    }
+    .contHijo1{
+        width: 100%;
+    }
+    #h2Solo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        padding-bottom: 100px;
+
+
+    }
+    
+    nav ul{
+        width: 100%;
+        height: 40%;
+        justify-content: space-around;
+    }
+    .info{
+        height: 450px;
+    }
+
+    .info h1{
+        margin: 0;
+        text-align: center;
+        width: 90%;
+        padding-top: 10px;
+    }
+    .info p{
+
+        text-align: center;
+    }
+    .contBtnHeader{
+        width: 100%;
+    }
+    #contPhone div{
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    #contPhone{
+        
+        width: 100%;
+        padding: 0;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        background-size:cover;
+
+        background-position: -20px;
+        background-repeat: no-repeat;
+    }
+    #contPhone img{
+        height: 80%;
+        width: 80%;
+
+    }
+    .contPadre2{
+        height: 800px;
+    }
+
+    .Mitad{
+        flex-direction: column;
+        height: 80%;
+    }
+
+    #h2Solo{
+        padding:  0;
+        height: 10%;
+    }
+
+    .portatil{
+        width: 100%;
+        justify-content: center;
+        height: 50%;
+        padding:  0 0 50px 0;
+    }
+    .portatil img{
+        width: 60%;
+        padding-left: 0 ;
+        height: 80%;
+    }
+    .portatil2{
+        width: 100%;
+        height: 50%;
+    }
+
+    #parrafoCentrado{
+        text-align: center;
+        padding-left: 10%;
+        padding-bottom: 20px;
+    }
+    .infoMedio{
+        height: 100%;
+
+    }
+    .infoMedio h3{
+        text-align: center;
+    }
+
+    .BtnAbajo{
+        height: 10%;
+    }
+
+    
+    .planes h3{
+        padding: 0;
+    }
+
+    .planPadre{
+        flex-wrap: wrap;
+    }
+
+    .planHijos{
+        width: 45%;
+        height: 550px
+        
+    }
+    .planes{
+        height: 1350px;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #pie{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .FooterDiv{
+        
+        width: 100%;
+    }
+    
+
+    
+
+}
+
+
+@media (max-width:480px){
+    
+    nav{
+        padding-bottom: 20px;
+        justify-content: space-evenly;
+    }
+
+    nav ul{ 
+        flex-wrap: wrap;
+
+    }
+    .portatil img{
+        width: 90%;
+    }
+    .planes{
+        height: 2200px;
+    }
+    .planPadre{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 80%;
+    }
+    .planHijos{
+        width:70%;
+    }
+
+}
